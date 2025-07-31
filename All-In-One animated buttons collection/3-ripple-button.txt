@@ -1,0 +1,32 @@
+✨ RIPPLE EFFECT BUTTON ✨
+
+HTML:
+<button class="btn-ripple">Ripple Effect</button>
+
+CSS:
+.btn-ripple {
+    background: #ff6b9d;
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-ripple:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(255, 107, 157, 0.6);
+}
+
+.btn-ripple:active {
+    transform: scale(0.95);
+}
+
+🎯 Features:
+- Beautiful pink/rose color (#ff6b9d)
+- Scale up on hover
+- Enhanced shadow on hover
+- Scale down on click (active state)
+- Smooth transitions 

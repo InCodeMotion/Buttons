@@ -1,0 +1,35 @@
+✨ 3D BUTTON ✨
+
+HTML:
+<button class="btn-3d">3D Effect</button>
+
+CSS:
+.btn-3d {
+    background: linear-gradient(145deg, #667eea, #764ba2);
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #4a5bb8;
+    transform: translateY(0);
+    transition: all 0.3s ease;
+}
+
+.btn-3d:hover {
+    transform: translateY(2px);
+    box-shadow: 0 4px 0 #4a5bb8;
+}
+
+.btn-3d:active {
+    transform: translateY(6px);
+    box-shadow: 0 0 0 #4a5bb8;
+}
+
+🎯 Features:
+- Purple gradient background
+- 3D depth with shadow
+- Press-down effect on hover
+- Full press on click
+- Realistic 3D feel 

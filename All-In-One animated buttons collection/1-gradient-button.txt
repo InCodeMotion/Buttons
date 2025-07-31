@@ -1,0 +1,28 @@
+✨ GRADIENT HOVER BUTTON ✨
+
+HTML:
+<button class="btn-gradient">Hover Me</button>
+
+CSS:
+.btn-gradient {
+    background: linear-gradient(45deg, #ff0000, #0066ff, #ffffff);
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    background: linear-gradient(45deg, #ffffff, #ff0000, #0066ff);
+}
+
+🎯 Features:
+- Red, Blue, White gradient
+- Hover lift effect
+- Shadow animation
+- Gradient color reversal on hover 

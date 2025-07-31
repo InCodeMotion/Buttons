@@ -1,0 +1,28 @@
+✨ MAGNETIC BUTTON ✨
+
+HTML:
+<button class="btn-magnetic">Magnetic</button>
+
+CSS:
+.btn-magnetic {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-magnetic:hover {
+    transform: scale(1.1) rotate(2deg);
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+}
+
+🎯 Features:
+- Purple gradient background
+- Scale + rotation on hover
+- Enhanced shadow effect
+- Magnetic-like movement
+- Smooth transitions 
